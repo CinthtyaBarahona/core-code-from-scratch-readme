@@ -114,3 +114,57 @@ Output
 Output
 
 <img src="img/Output_excercise2-mips.png">
+
+### Thursday:
+
+#### 1. Print Special Numbers
+
+- For:
+
+```js
+#!/usr/bin/env node
+
+let numeros = 0
+
+console.log("Los numeros pares entre 1 y 100 son: ")
+for(let numeros = 1; numeros <= 101; numeros++ ){
+    if(numeros % 2 == 0){
+        console.log(numeros)
+    }
+}
+```
+Output
+
+<img src="img/for_excercise.png">
+
+- While:
+
+```js
+#!/usr/bin/env node
+
+let numeros = 1
+console.log("Los numeros pares entre 1 y 100 son: ")
+
+while(numeros <= 100){
+    if(numeros % 2 == 0){
+        console.log(numeros)
+    }
+    numeros++
+}
+```
+
+- do While:
+
+```js
+#!/usr/bin/env node
+let numeros = 1
+
+console.log("Los numeros pares entre 1 y 100 son: ")
+
+do{
+    if(numeros % 2 == 0){
+        console.log(numeros)
+    }
+    numeros++
+}while(numeros <= 100)
+```
